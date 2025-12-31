@@ -13,7 +13,7 @@ function toggleMode() {
   }
 
   if (html.classList.contains("light")) {
-    img.setAttribute("alt", "Foto de um intardecer")
+    img.setAttribute("alt", "Foto de um entardecer")
   } else {
     img.setAttribute("alt", "Foto de um anoitecer")
   }
