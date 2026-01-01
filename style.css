@@ -22,8 +22,8 @@
   --switch-bg-url: url(./assets/sun.svg);
 }
 body {
-  background: var(--bg-url) no-repeat top center/cover; 
-  height:100vh;
+  background: var(--bg-url) no-repeat top center/cover;
+  height: 100vh;
 }
 body * {
   font-family: "Inter", sans-serif;
@@ -144,12 +144,11 @@ footer {
 }
 
 /*media queries*/
-@media (min-windth:700px) {
+@media (min-windth: 700px) {
   :root {
-     --bg-url: url(./assets/bh-desktop.jpg); 
-  } 
+    --bg-url: url(./assets/bh-desktop.jpg);
+  }
   .light {
     --bg-url: url(./assets/bg-desktop-light.jpg);
   }
 }
-
